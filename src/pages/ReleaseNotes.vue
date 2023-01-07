@@ -1,3 +1,5 @@
 <template>
-  <h1>Release Notes</h1>
+  <div>
+    <h1>Release Notes</h1>
+  </div>
 </template>

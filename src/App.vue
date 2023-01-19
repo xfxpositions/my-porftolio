@@ -1,6 +1,6 @@
 <template>
   <div
-    class="h-screen sm:p-10 md:p-15 lg:p-20 p-2 -z-10 text-center transition-colors duration-500 ease-in-out bg-[#F0E7DB] dark:bg-[#101419] dark:text-white font-bold"
+    class="h-[100%] min-h-screen sm:p-10 md:p-15 lg:p-20 p-2 -z-10 text-center transition-colors duration-500 ease-in-out bg-[#F0E7DB] dark:bg-[#101419] dark:text-white font-bold"
   >
     <Navbar></Navbar>
 
@@ -16,7 +16,6 @@
 import Stars from "./components/Stars.vue";
 import DarkModeVue from "./components/DarkMode.vue";
 import Navbar from "./components/Navbar.vue";
-
 </script>
 <style>
 @import url("https://fonts.cdnfonts.com/css/euclid-circular-a");

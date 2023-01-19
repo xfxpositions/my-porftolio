@@ -18,11 +18,13 @@ import {
   faUserAstronaut,
   faRightLong,
 } from "@fortawesome/free-solid-svg-icons";
+import { faSquareJs } from "@fortawesome/free-brands-svg-icons";
 library.add(faUserSecret);
 library.add(faSun);
 library.add(faMoon);
 library.add(faUserAstronaut);
 library.add(faRightLong);
+library.add(faSquareJs);
 
 const app = createApp(App);
 app.use(router);

@@ -19,7 +19,8 @@ import {
   faRightLong,
   faBars,
 } from "@fortawesome/free-solid-svg-icons";
-import { faSquareJs } from "@fortawesome/free-brands-svg-icons";
+
+import { faSquareJs, faGithub } from "@fortawesome/free-brands-svg-icons";
 library.add(faUserSecret);
 library.add(faSun);
 library.add(faMoon);
@@ -27,6 +28,8 @@ library.add(faUserAstronaut);
 library.add(faRightLong);
 library.add(faSquareJs);
 library.add(faBars);
+library.add(faGithub);
+
 
 const app = createApp(App);
 app.use(router);

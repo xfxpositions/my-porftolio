@@ -19,7 +19,7 @@
       <h2 class="text-rose-400 text-ellipsis">What i love.</h2>
       <div class="font-normal">
         Operating systems (also i use arch btw.), Altaic Languages, Computer
-        Science.
+        Science? (it can be).
       </div>
       <div class="px-10 py-4">
         <hr />
@@ -39,6 +39,34 @@
           </li>
           <li>React js.</li>
           <li>Nodejs (ExpressJs,Fastify).</li>
+        </ul>
+      </div>
+      <div
+        class="flex flex-col px-6 py-2 md:p-7 md:py-3 lg:p-10 lg:py-3 bg-zinc-500 bg-opacity-30 backdrop-blur-[2px] rounded-md mt-2"
+      >
+        <h1 class="">Rust - Web and System Programming.</h1>
+
+        <p class="font-normal text-[1rem] md:text-[1.2rem]">
+          Note: My interest to Rust has increased in the last 3 months. I am
+          currently working on my operating system called xfxOS. I will create a
+          separate page for details.
+          <a
+            class="underline text-red-400"
+            href="https://github.com/xfxpositions/xfxOS/"
+            >You can check here for details.</a
+          >
+        </p>
+        <ul class="list-disc font-normal text-[1rem] md:text-[1.2rem]">
+          <li>
+            Rust web technologies, yew.rs wasm, web frameworks.
+            <a
+              href="https://github.com/xfxpositions/jsonwebtokens/blob/master/examples/hmac_sign_and_verify.rs"
+              class="underline text-red-400"
+              >Check out this fork, the first thing I wrote with Rust.</a
+            >
+            <br>
+            <a href="https://github.com/xfxpositions/yew-basics" class="underline text-red-400">Yew basic todo app lol.</a>
+          </li>
         </ul>
       </div>
       <div
@@ -67,36 +95,10 @@
             network this time).
           </li>
           <li>Simple level hashing algorithms.</li>
+          <a href="https://github.com/bekircoin" class="text-red-400 underline">repo of Bekircoin</a>
         </ul>
       </div>
-      <div
-        class="flex flex-col px-6 py-2 md:p-7 md:py-3 lg:p-10 lg:py-3 bg-zinc-500 bg-opacity-30 backdrop-blur-[2px] rounded-md mt-2"
-      >
-        <h1 class="">Rust - Low Level System Programming.</h1>
-
-        <p class="font-normal text-[1rem] md:text-[1.2rem]">
-          Note: My interest to Rust has increased in the last 3 months. I am
-          currently working on my operating system called xfxOS. I will create a
-          separate page for details.
-          <a
-            class="underline text-red-400"
-            href="https://github.com/xfxpositions/xfxOS/"
-            >You can check here for details.</a
-          >
-        </p>
-        <ul class="list-disc font-normal text-[1rem] md:text-[1.2rem]">
-          <li>
-            Rust web technologies, yew.rs wasm, web frameworks.
-            <a
-              href="https://github.com/xfxpositions/jsonwebtokens/blob/master/examples/hmac_sign_and_verify.rs"
-              class="underline text-red-400"
-              >Check out this fork, the first thing I wrote with Rust.</a
-            >
-            <br>
-            <a href="https://github.com/xfxpositions/yew-basics" class="underline text-red-400">Yew basic todo app lol.</a>
-          </li>
-        </ul>
-      </div>
+      
       <hr class="mt-2" />
       <code class="text-sm md:text-[1.2rem]">Yusuf Karaca - 16/03/2023</code>
       <br>

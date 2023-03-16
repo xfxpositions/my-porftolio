@@ -16,7 +16,11 @@
       <LinkVue to="/release-notes" class="text-lg">Release Notes</LinkVue>
       <LinkVue to="/surveys" class="text-lg">Surveys</LinkVue>
     </div>
-    <DarkModeVue class="z-10" />
+    <div class="z-10 flex gap-4">
+      <DarkModeVue class="z-10" />
+      <Github class="z-10" />
+    </div>
+    
 
     <div>
       <NavbarMenuMobile></NavbarMenuMobile>
@@ -27,4 +31,5 @@
 import LinkVue from "./Link.vue";
 import DarkModeVue from "./DarkMode.vue";
 import NavbarMenuMobile from "./NavbarMenuMobile.vue";
+import Github from "./Github.vue";
 </script>

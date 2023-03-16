@@ -86,17 +86,21 @@
         </p>
         <ul class="list-disc font-normal text-[1rem] md:text-[1.2rem]">
           <li>
-            Very beginner rust.
+            Rust web technologies, yew.rs wasm, web frameworks.
             <a
               href="https://github.com/xfxpositions/jsonwebtokens/blob/master/examples/hmac_sign_and_verify.rs"
               class="underline text-red-400"
               >Check out this fork, the first thing I wrote with Rust.</a
             >
+            <br>
+            <a href="https://github.com/xfxpositions/yew-basics" class="underline text-red-400">Yew basic todo app lol.</a>
           </li>
         </ul>
       </div>
       <hr class="mt-2" />
-      <code class="text-sm md:text-[1.2rem]">Yusuf Karaca - 19/01/2023</code>
+      <code class="text-sm md:text-[1.2rem]">Yusuf Karaca - 16/03/2023</code>
+      <br>
+      <a href="https://github.com/xfxpositions/my-porftolio" class="text-sm text-red-400 underline">Source code</a>
     </div>
   </div>
 </template>

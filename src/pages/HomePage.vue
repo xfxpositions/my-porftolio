@@ -96,7 +96,7 @@
         </ul>
       </div>
       <hr class="mt-2" />
-      <code class="text-sm md:text-[1.2rem]">Yusuf Karaca - 19.01.2023</code>
+      <code class="text-sm md:text-[1.2rem]">Yusuf Karaca - 19/01/2023</code>
     </div>
   </div>
 </template>

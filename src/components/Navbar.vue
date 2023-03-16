@@ -10,16 +10,21 @@
       </h1>
     </router-link>
     <div class="divide-y"></div>
-    <div class="z-10">
+    <div class="z-10 hidden md:block">
       <LinkVue to="/posts" class="text-lg">Posts</LinkVue>
 
       <LinkVue to="/release-notes" class="text-lg">Release Notes</LinkVue>
       <LinkVue to="/surveys" class="text-lg">Surveys</LinkVue>
-      <DarkModeVue class="z-10" />
+    </div>
+    <DarkModeVue class="z-10" />
+
+    <div>
+      <NavbarMenuMobile></NavbarMenuMobile>
     </div>
   </nav>
 </template>
 <script setup>
 import LinkVue from "./Link.vue";
 import DarkModeVue from "./DarkMode.vue";
+import NavbarMenuMobile from "./NavbarMenuMobile.vue";
 </script>

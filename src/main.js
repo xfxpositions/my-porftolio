@@ -7,6 +7,8 @@ import router from "./router";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 
+import Markdown from "vue3-markdown-it";
+
 /* import font awesome icon component */
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
@@ -30,9 +32,9 @@ library.add(faSquareJs);
 library.add(faBars);
 library.add(faGithub);
 
-
 const app = createApp(App);
 app.use(router);
 app.use(MotionPlugin).component("font-awesome-icon", FontAwesomeIcon);
+app.use(Markdown);
 
 app.mount("#app");

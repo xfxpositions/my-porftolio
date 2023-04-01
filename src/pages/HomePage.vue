@@ -13,7 +13,7 @@
         trying
         <span class="graident"> somethings... </span>
       </h2>
-      <div class="px-10 py-4">
+      <div class="px-10 py-1 md:py-2">
         <hr />
       </div>
       <h2 class="text-rose-400 text-ellipsis">What i love.</h2>
@@ -47,9 +47,9 @@
         <h1 class="">Rust - Web and System Programming.</h1>
 
         <p class="font-normal text-[1rem] md:text-[1.2rem]">
-          Note: My interest to Rust has increased in the last 3 months. I am
-          currently working on my operating system called xfxOS. I will create a
-          separate page for details.
+          I am currently working on my operating system called xfxOS. I will
+          create a separate page for details. (outdated, project suspended for
+          some reasons)
           <a
             class="underline text-red-400"
             href="https://github.com/xfxpositions/xfxOS/"
@@ -66,10 +66,21 @@
             >
             <br />
             <a
-              href="https://github.com/xfxpositions/yew-basics"
+              href="https://xfxpositions.github.io/yew-basics/"
               class="underline text-red-400"
-              >Yew basic todo app lol.</a
+              >Yew basics app.</a
             >
+            <br />
+            <li>
+              I'm working on a web framework like expressjs, you can easly adapt from expressjs. Check out the
+            <a
+              href="https://github.com/xfxpositions/maria"
+              class="font-semibold underline "
+              >Maria.rs</a
+            >
+            .
+            </li>
+           
           </li>
         </ul>
       </div>

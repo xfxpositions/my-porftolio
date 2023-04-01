@@ -1,5 +1,5 @@
 <template>
-  <nav class="py-5 px-4 flex justify-between">
+  <nav class="z-20 relative py-5 px-4 flex justify-between">
     <router-link to="/" class="z-10">
       <h1 class="group">
         <font-awesome-icon
@@ -18,9 +18,10 @@
     </div>
     <div class="z-10 flex gap-4">
       <DarkModeVue class="z-10" />
-      <Github class="z-10" />
+      <div class="hidden md:block">
+        <Github class="z-10" />
+      </div>
     </div>
-    
 
     <div>
       <NavbarMenuMobile></NavbarMenuMobile>

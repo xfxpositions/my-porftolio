@@ -4,7 +4,12 @@
   >
     <Navbar></Navbar>
     <router-view class="router-view" v-slot="{ Component }">
-      <Transition name="page-opacity" mode="out-in">
+      <Transition
+        name="fade-slide"
+        mode="out-in"
+        :duration="{ enter: 800, leave: 800 }"
+        :delay="{ enter: 100, leave: 0 }"
+      >
         <component :is="Component" />
       </Transition>
       <Stars></Stars>
@@ -19,13 +24,19 @@ import Navbar from "./components/Navbar.vue";
 <style>
 @import url("https://fonts.cdnfonts.com/css/euclid-circular-a");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
-.page-opacity-enter-active,
-.page-opacity-leave-active {
-  transition: 0.5s cubic-bezier(0.17, 0.67, 0.21, 1.04);
+.fade-slide-enter-active,
+.fade-slide-leave-active {
+  transition: all 0.8s ease-out;
+  transition-delay: 0.1s;
 }
-.page-opacity-enter-from,
-.page-opacity-leave-to {
+
+.fade-slide-enter {
+  transform: translateY(10px);
   opacity: 0;
-  transform: translateY(200px);
+}
+
+.fade-slide-leave-to {
+  transform: translateY(-10px);
+  opacity: 0;
 }
 </style>

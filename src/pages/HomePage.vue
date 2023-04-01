@@ -64,8 +64,12 @@
               class="underline text-red-400"
               >Check out this fork, the first thing I wrote with Rust.</a
             >
-            <br>
-            <a href="https://github.com/xfxpositions/yew-basics" class="underline text-red-400">Yew basic todo app lol.</a>
+            <br />
+            <a
+              href="https://github.com/xfxpositions/yew-basics"
+              class="underline text-red-400"
+              >Yew basic todo app lol.</a
+            >
           </li>
         </ul>
       </div>
@@ -95,19 +99,25 @@
             network this time).
           </li>
           <li>Simple level hashing algorithms.</li>
-          <a href="https://github.com/bekircoin" class="text-red-400 underline">repo of Bekircoin</a>
+          <a href="https://github.com/bekircoin" class="text-red-400 underline"
+            >repo of Bekircoin</a
+          >
         </ul>
       </div>
-      
+
       <hr class="mt-2" />
       <code class="text-sm md:text-[1.2rem]">Yusuf Karaca - 16/03/2023</code>
-      <br>
-      <a href="https://github.com/xfxpositions/my-porftolio" class="text-sm text-red-400 underline">Source code</a>
+      <br />
+      <a
+        href="https://github.com/xfxpositions/my-porftolio"
+        class="text-sm text-red-400 underline"
+        >Source code</a
+      >
     </div>
   </div>
 </template>
 <script setup>
-import LinkVue from "../components/Link.vue";
+import Section from "../components/Section.vue";
 </script>
 <style scoped>
 .graident {

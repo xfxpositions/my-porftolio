@@ -35,6 +35,8 @@ library.add(faGithub);
 const app = createApp(App);
 app.use(router);
 app.use(MotionPlugin).component("font-awesome-icon", FontAwesomeIcon);
+app.use(MotionPlugin);
+
 app.use(Markdown);
 
 app.mount("#app");

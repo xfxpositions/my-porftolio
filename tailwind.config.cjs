@@ -21,4 +21,14 @@ module.exports = {
     display: ["Oswald"],
     body: ['"Open Sans"'],
   },
+  variants: {
+    extend: {
+      backgroundColor: ["active"],
+      // ...
+      borderColor: ["focus-visible", "first"],
+      // ...
+      textColor: ["visited"],
+      underline: ["group-hover"],
+    },
+  },
 };

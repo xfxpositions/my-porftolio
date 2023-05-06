@@ -20,6 +20,21 @@
 import Stars from "./components/Stars.vue";
 import DarkModeVue from "./components/DarkMode.vue";
 import Navbar from "./components/Navbar.vue";
+import { useColorMode } from "@vueuse/core";
+
+const mode = useColorMode({
+  attribute: "theme",
+  modes: {
+    // custom colors
+    dim: "dim",
+    cafe: "cafe",
+  },
+});
+if (localStorage.getItem("vueuse-color-scheme") == "auto") {
+  mode.value = "dark";
+}
+
+console.log(mode.value);
 </script>
 <style>
 @import url("https://fonts.cdnfonts.com/css/euclid-circular-a");

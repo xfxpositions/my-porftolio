@@ -1,5 +1,6 @@
 <template>
   <div
+    class="relative z-20"
     v-motion
     :initial="{
       opacity: 0,

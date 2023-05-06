@@ -17,7 +17,7 @@
         <LinkVue to="/release-notes" class="text-lg">Yama notları</LinkVue>
         <LinkVue to="/surveys" class="text-lg">Anketler</LinkVue>
         <LinkVue to="https://yusufkaraca.dev" class="text-lg" :is-a="true"
-          >Change Language</LinkVue
+          >English</LinkVue
         >
       </div>
       <div class="z-10 flex gap-4">

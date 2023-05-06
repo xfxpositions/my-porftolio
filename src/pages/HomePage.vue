@@ -1,120 +1,138 @@
 <template>
   <div class="grid justify-center align-center flex-col">
     <div class="z-10">
-      <div
-        class="text-xl p-2 backdrop-blur-[2px] bg-zinc-400 m-auto rounded-lg bg-opacity-20"
-      >
-        Hello, I'm Yusuf Karaca. I'm just posting about my hobbies, feelings,
-        interestings
-      </div>
-      <h1>About Me</h1>
-      <h2 class="font-normal">
-        There is not thing what need the know about me. Im 16 and I'm just
-        trying
-        <span class="graident"> somethings... </span>
-      </h2>
-      <div class="px-10 py-1 md:py-2">
-        <hr />
-      </div>
-      <h2 class="text-rose-400 text-ellipsis">What i love.</h2>
-      <div class="font-normal">
-        Operating systems (also i use arch btw.), Altaic Languages, Computer
-        Science? (it can be).
-      </div>
-      <div class="px-10 py-4">
-        <hr />
-      </div>
-      <h2 class="text-rose-400">
-        Technologies what i <span class="">know</span>
-      </h2>
-      <div
-        class="flex flex-col px-6 py-2 md:p-7 md:py-3 lg:p-10 lg:py-3 bg-zinc-500 bg-opacity-30 backdrop-blur-[2px] rounded-md mt-2"
-      >
-        <h1>Javascript.</h1>
-        <ul class="list-disc font-normal text-[1rem] md:text-[1.2rem]">
-          <li>Modern ES6.</li>
-          <li>
-            Vue js (in the future I will already make vue js ui framework..
-            maybe).
-          </li>
-          <li>React js.</li>
-          <li>Nodejs (ExpressJs,Fastify).</li>
-        </ul>
-      </div>
-      <div
-        class="flex flex-col px-6 py-2 md:p-7 md:py-3 lg:p-10 lg:py-3 bg-zinc-500 bg-opacity-30 backdrop-blur-[2px] rounded-md mt-2"
-      >
-        <h1 class="">Rust - Web and System Programming.</h1>
+      <Section delay="100">
+        <div
+          class="text-xl p-2 backdrop-blur-[2px] bg-zinc-400 m-auto rounded-lg bg-opacity-20"
+        >
+          Hello, I'm Yusuf Karaca. I'm just posting about my hobbies, feelings,
+          interestings
+        </div>
+      </Section>
+      <Section delay="200">
+        <h1>About Me</h1>
+        <h2 class="font-normal">
+          There is not thing what need the know about me. Im 16 and I'm just
+          trying
+          <span class="graident"> somethings... </span>
+        </h2>
+      </Section>
+      <Section delay="300">
+        <div class="px-10 py-4">
+          <hr />
+        </div>
+        <h2 class="text-rose-400 text-ellipsis">What i love.</h2>
+        <div class="font-normal">
+          Operating systems (also i use arch btw.), Altaic Languages, Computer
+          Science? (it can be).
+        </div>
+      </Section>
 
-        <p class="font-normal text-[1rem] md:text-[1.2rem]">
-          I am currently working on my operating system called xfxOS. I will
-          create a separate page for details. (outdated, project suspended for
-          some reasons)
-          <a
-            class="underline text-red-400"
-            href="https://github.com/xfxpositions/xfxOS/"
-            >You can check here for details.</a
-          >
-        </p>
-        <ul class="list-disc font-normal text-[1rem] md:text-[1.2rem]">
-          <li>
-            Rust web technologies, yew.rs wasm, web frameworks.
-            <a
-              href="https://github.com/xfxpositions/jsonwebtokens/blob/master/examples/hmac_sign_and_verify.rs"
-              class="underline text-red-400"
-              >Check out this fork, the first thing I wrote with Rust.</a
-            >
-            <br />
-            <a
-              href="https://xfxpositions.github.io/yew-basics/"
-              class="underline text-red-400"
-              >Yew basics app.</a
-            >
-            <br />
+      <Section delay="400">
+        <div class="px-10 py-4">
+          <hr />
+        </div>
+        <h2 class="text-rose-400">
+          Technologies what i <span class="">know</span>
+        </h2>
+      </Section>
+      <Section delay="500">
+        <div
+          class="flex flex-col px-6 py-2 md:p-7 md:py-3 lg:p-10 lg:py-3 bg-zinc-500 bg-opacity-30 backdrop-blur-[2px] rounded-md mt-2"
+        >
+          <h1>Javascript.</h1>
+          <ul class="list-disc font-normal text-[1rem] md:text-[1.2rem]">
+            <li>Modern ES6.</li>
             <li>
-              I'm working on a web framework like expressjs, you can easly adapt from expressjs. Check out the
-            <a
-              href="https://github.com/xfxpositions/maria"
-              class="font-semibold underline "
-              >Maria.rs</a
-            >
-            .
+              Vue js (in the future I will already make vue js ui framework..
+              maybe).
             </li>
-           
-          </li>
-        </ul>
-      </div>
-      <div
-        class="flex flex-col px-6 py-2 md:p-7 md:py-3 lg:p-10 lg:py-3 bg-zinc-500 bg-opacity-30 backdrop-blur-[2px] rounded-md mt-2"
-      >
-        <h1>Devops.</h1>
-        <ul class="list-disc font-normal text-[1rem] md:text-[1.2rem]">
-          <li>Simple Devops.</li>
-          <li>Ubuntu servers. Aws, Oracle Cloud</li>
-          <li>
-            Imap, Smtp, Web servers Basic Understanding of HTTP, websockets,
-            internet protocols.
-          </li>
-          <li>Cyberpanel, Cpanel.</li>
-        </ul>
-      </div>
-      <div
-        class="flex flex-col px-6 py-2 md:p-7 md:py-3 lg:p-10 lg:py-3 bg-zinc-500 bg-opacity-30 backdrop-blur-[2px] rounded-md mt-2"
-      >
-        <h1>Blockchain.</h1>
-        <ul class="list-disc font-normal text-[1rem] md:text-[1.2rem]">
-          <li>Blockchain's working logic.</li>
-          <li>
-            Cryptocurrencies, you can check my repo (I want to develop bekircoin
-            with rust in the future, it will be working with the Blockchain
-            network this time).
-          </li>
-          <li>Simple level hashing algorithms.</li>
-          <a href="https://github.com/bekircoin" class="text-red-400 underline"
-            >repo of Bekircoin</a
-          >
-        </ul>
-      </div>
+            <li>React js.</li>
+            <li>Nodejs (ExpressJs,Fastify).</li>
+          </ul>
+        </div>
+      </Section>
+      <Section delay="600">
+        <div
+          class="flex flex-col px-6 py-2 md:p-7 md:py-3 lg:p-10 lg:py-3 bg-zinc-500 bg-opacity-30 backdrop-blur-[2px] rounded-md mt-2"
+        >
+          <h1 class="">Rust - Web and System Programming.</h1>
+
+          <p class="font-normal text-[1rem] md:text-[1.2rem]">
+            I am currently working on my operating system called xfxOS. I will
+            create a separate page for details. (outdated, project suspended for
+            some reasons)
+            <a
+              class="underline text-red-400"
+              href="https://github.com/xfxpositions/xfxOS/"
+              >You can check here for details.</a
+            >
+          </p>
+          <ul class="list-disc font-normal text-[1rem] md:text-[1.2rem]">
+            <li>
+              Rust web technologies, yew.rs wasm, web frameworks.
+              <a
+                href="https://github.com/xfxpositions/jsonwebtokens/blob/master/examples/hmac_sign_and_verify.rs"
+                class="underline text-red-400"
+                >Check out this fork, the first thing I wrote with Rust.</a
+              >
+              <br />
+              <a
+                href="https://xfxpositions.github.io/yew-basics/"
+                class="underline text-red-400"
+                >Yew basics app.</a
+              >
+              <br />
+            </li>
+
+            <li>
+              I'm working on a web framework like expressjs, you can easly adapt
+              from expressjs. Check out the
+              <a
+                href="https://github.com/xfxpositions/maria"
+                class="font-semibold underline"
+                >Maria.rs</a
+              >
+              .
+            </li>
+          </ul>
+        </div>
+      </Section>
+      <Section delay="700">
+        <div
+          class="flex flex-col px-6 py-2 md:p-7 md:py-3 lg:p-10 lg:py-3 bg-zinc-500 bg-opacity-30 backdrop-blur-[2px] rounded-md mt-2"
+        >
+          <h1>Devops.</h1>
+          <ul class="list-disc font-normal text-[1rem] md:text-[1.2rem]">
+            <li>Simple Devops.</li>
+            <li>Ubuntu servers. Aws, Oracle Cloud</li>
+            <li>
+              Imap, Smtp, Web servers Basic Understanding of HTTP, websockets,
+              internet protocols.
+            </li>
+            <li>Cyberpanel, Cpanel.</li>
+          </ul>
+        </div>
+        <div
+          class="flex flex-col px-6 py-2 md:p-7 md:py-3 lg:p-10 lg:py-3 bg-zinc-500 bg-opacity-30 backdrop-blur-[2px] rounded-md mt-2"
+        >
+          <h1>Blockchain.</h1>
+          <ul class="list-disc font-normal text-[1rem] md:text-[1.2rem]">
+            <li>Blockchain's working logic.</li>
+            <li>
+              Cryptocurrencies, you can check my repo (I want to develop
+              bekircoin with rust in the future, it will be working with the
+              Blockchain network this time).
+            </li>
+            <li>Simple level hashing algorithms.</li>
+            <a
+              href="https://github.com/bekircoin"
+              class="text-red-400 underline"
+              >repo of Bekircoin</a
+            >
+          </ul>
+        </div>
+      </Section>
 
       <hr class="mt-2" />
       <code class="text-sm md:text-[1.2rem]">Yusuf Karaca - 16/03/2023</code>

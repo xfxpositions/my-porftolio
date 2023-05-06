@@ -16,7 +16,7 @@
 
         <LinkVue to="/release-notes" class="text-lg">Release Notes</LinkVue>
         <LinkVue to="/surveys" class="text-lg">Surveys</LinkVue>
-        <LinkVue to="https://yusufkaraca.dev" class="text-lg" :is-a="true"
+        <LinkVue to="https://tr.yusufkaraca.dev" class="text-lg" :is-a="true"
           >Türkçe</LinkVue
         >
       </div>

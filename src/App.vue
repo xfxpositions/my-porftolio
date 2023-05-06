@@ -33,8 +33,6 @@ const mode = useColorMode({
 if (localStorage.getItem("vueuse-color-scheme") == "auto") {
   mode.value = "dark";
 }
-
-console.log(mode.value);
 </script>
 <style>
 @import url("https://fonts.cdnfonts.com/css/euclid-circular-a");

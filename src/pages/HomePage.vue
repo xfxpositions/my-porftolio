@@ -1,99 +1,110 @@
 <template>
   <div class="grid justify-center align-center flex-col">
     <div class="z-10">
-      <div
-        class="text-xl p-2 backdrop-blur-[2px] bg-zinc-400 m-auto rounded-lg bg-opacity-20"
-      >
-        Hello, I'm Yusuf Karaca. I'm just posting about my hobbies, feelings,
-        interestings
-      </div>
-      <h1>About Me</h1>
-      <h2 class="font-normal">
-        There is not thing what need the know about me. Im 16 and I'm just
-        trying
-        <span class="graident"> somethings... </span>
-      </h2>
+      <Section delay="100">
+        <div
+          class="text-xl p-2 backdrop-blur-[2px] bg-zinc-400 m-auto rounded-lg bg-opacity-20"
+        >
+          Merhaba! Ben Yusuf Karaca. hobilerim, ilgi alanlarım ve fikirlerim
+          hakkında gönderiler paylaşıyorum.
+        </div>
+      </Section>
+      <Section delay="200">
+        <h1>Hakkımda</h1>
+        <h2 class="font-normal">
+          Şu anlık hakkımda bilinmesi gereken çok şey yok, 17 yaşındayım, liseye
+          gidiyorum ve
+          <span class="graident"> bir şeyler</span> deniyorum...
+        </h2>
+      </Section>
+
       <div class="px-10 py-1 md:py-2">
         <hr />
       </div>
-      <h2 class="text-rose-400 text-ellipsis">What i love.</h2>
-      <div class="font-normal">
-        Operating systems (also i use arch btw.), Altaic Languages, Computer
-        Science? (it can be).
-      </div>
-      <div class="px-10 py-4">
-        <hr />
-      </div>
-      <h2 class="text-rose-400">
-        Technologies what i <span class="">know</span>
-      </h2>
-      <div
-        class="flex flex-col px-6 py-2 md:p-7 md:py-3 lg:p-10 lg:py-3 bg-zinc-500 bg-opacity-30 backdrop-blur-[2px] rounded-md mt-2"
-      >
-        <h1>Javascript.</h1>
-        <ul class="list-disc font-normal text-[1rem] md:text-[1.2rem]">
-          <li>Modern ES6.</li>
-          <li>
-            Vue js (in the future I will already make vue js ui framework..
-            maybe).
-          </li>
-          <li>React js.</li>
-          <li>Nodejs (ExpressJs,Fastify).</li>
-        </ul>
-      </div>
-      <div
-        class="flex flex-col px-6 py-2 md:p-7 md:py-3 lg:p-10 lg:py-3 bg-zinc-500 bg-opacity-30 backdrop-blur-[2px] rounded-md mt-2"
-      >
-        <h1 class="">Rust - Web and System Programming.</h1>
+      <Section delay="300">
+        <h2 class="text-rose-400 text-ellipsis">Sevdiğim şeyler.</h2>
+        <div class="font-normal">
+          İşletim sistemleri (arch linux kullanıyorum bu arada), Dilbilimi
+          (Altay dil ailesi?), Bilgisayar bilimi
+        </div>
+        <div class="px-10 py-4">
+          <hr />
+        </div>
+      </Section>
+      <Section delay="400">
+        <h2 class="text-rose-400">
+          <span class="">Bildiğim </span>Teknolojiler
+        </h2>
+        <div
+          class="flex flex-col px-6 py-2 md:p-7 md:py-3 lg:p-10 lg:py-3 bg-zinc-500 bg-opacity-30 backdrop-blur-[2px] rounded-md mt-2"
+        >
+          <h1>Javascript.</h1>
+          <ul class="list-disc font-normal text-[1rem] md:text-[1.2rem]">
+            <li>Modern ES6. Javascript Frameworkleri</li>
+            <li>Vue, React, Svelte</li>
+            <li>React js.</li>
+            <li>Nodejs (ExpressJs,Fastify, Koajs).</li>
+          </ul>
+        </div>
+      </Section>
+      <Section delay="500">
+        <div
+          class="flex flex-col px-6 py-2 md:p-7 md:py-3 lg:p-10 lg:py-3 bg-zinc-500 bg-opacity-30 backdrop-blur-[2px] rounded-md mt-2"
+        >
+          <Section delay="500"> </Section>
+          <h1 class="">Rust - Web ve Sistem Programlama.</h1>
 
-        <p class="font-normal text-[1rem] md:text-[1.2rem]">
-          I am currently working on my operating system called xfxOS. I will
-          create a separate page for details. (outdated, project suspended for
-          some reasons)
-          <a
-            class="underline text-red-400"
-            href="https://github.com/xfxpositions/xfxOS/"
-            >You can check here for details.</a
-          >
-        </p>
-        <ul class="list-disc font-normal text-[1rem] md:text-[1.2rem]">
-          <li>
-            Rust web technologies, yew.rs wasm, web frameworks.
+          <p class="font-normal text-[1rem] md:text-[1.2rem]">
+            Bu aralar xfxOS isminde bir işletim sistemi üzerinde çalışıyorum,
+            Bunun hakkında ayrı bir gönderi açacağım.
+
             <a
-              href="https://github.com/xfxpositions/jsonwebtokens/blob/master/examples/hmac_sign_and_verify.rs"
               class="underline text-red-400"
-              >Check out this fork, the first thing I wrote with Rust.</a
+              href="https://github.com/xfxpositions/xfxOS/"
+              >Daha fazla detay için.</a
             >
-            <br />
-            <a
-              href="https://xfxpositions.github.io/yew-basics/"
-              class="underline text-red-400"
-              >Yew basics app.</a
-            >
-            <br />
+          </p>
+          <ul class="list-disc font-normal text-[1rem] md:text-[1.2rem]">
             <li>
-              I'm working on a web framework like expressjs, you can easly adapt from expressjs. Check out the
-            <a
-              href="https://github.com/xfxpositions/maria"
-              class="font-semibold underline "
-              >Maria.rs</a
-            >
-            .
+              Rust web technologies, yew.rs wasm, web frameworks.
+              <a
+                href="https://github.com/xfxpositions/jsonwebtokens/blob/master/examples/hmac_sign_and_verify.rs"
+                class="underline text-red-400"
+                >Rust ile yazdığım ilk şey.</a
+              >
+              <br />
+              <a
+                href="https://xfxpositions.github.io/yew-basics/"
+                class="underline text-red-400"
+                >Yew.rs temelleri.</a
+              >
+              <br />
             </li>
-           
-          </li>
-        </ul>
-      </div>
+
+            <li>
+              ExpressJs'den ilham alan bir rust web framework'ü yazıyorum,
+              ExpressJs kullananlar bile hızlıca adapte olabilecekler.
+
+              <a
+                href="https://github.com/xfxpositions/maria"
+                class="font-semibold underline"
+                >Maria.rs</a
+              >'i kontrol edin!
+            </li>
+          </ul>
+        </div>
+      </Section>
+
       <div
         class="flex flex-col px-6 py-2 md:p-7 md:py-3 lg:p-10 lg:py-3 bg-zinc-500 bg-opacity-30 backdrop-blur-[2px] rounded-md mt-2"
       >
         <h1>Devops.</h1>
         <ul class="list-disc font-normal text-[1rem] md:text-[1.2rem]">
-          <li>Simple Devops.</li>
-          <li>Ubuntu servers. Aws, Oracle Cloud</li>
+          <li>Basit Devops.</li>
+          <li>Ubuntu sunucular. Aws, Oracle Cloud</li>
           <li>
-            Imap, Smtp, Web servers Basic Understanding of HTTP, websockets,
-            internet protocols.
+            Imap, Smtp, Http çalışma mantığı, websockets, internet protokolleri
+            (belki).
           </li>
           <li>Cyberpanel, Cpanel.</li>
         </ul>
@@ -103,26 +114,25 @@
       >
         <h1>Blockchain.</h1>
         <ul class="list-disc font-normal text-[1rem] md:text-[1.2rem]">
-          <li>Blockchain's working logic.</li>
+          <li>Blockchain's çalışma mantığı.</li>
           <li>
-            Cryptocurrencies, you can check my repo (I want to develop bekircoin
-            with rust in the future, it will be working with the Blockchain
-            network this time).
+            Kriptovarlıklar, (ileride bekircoini rust ile baştan yazmak ve
+            büyütmek istiyorum, çalışan gerçek bir blockzinciri)
           </li>
-          <li>Simple level hashing algorithms.</li>
+          <li>Basit seviye algoritmalar.</li>
           <a href="https://github.com/bekircoin" class="text-red-400 underline"
-            >repo of Bekircoin</a
+            >Bekircoin'i kontrol edin!</a
           >
         </ul>
       </div>
 
       <hr class="mt-2" />
-      <code class="text-sm md:text-[1.2rem]">Yusuf Karaca - 16/03/2023</code>
+      <code class="text-sm md:text-[1.2rem]">Yusuf Karaca - 06/05/2023</code>
       <br />
       <a
         href="https://github.com/xfxpositions/my-porftolio"
         class="text-sm text-red-400 underline"
-        >Source code</a
+        >Kaynak kodu</a
       >
     </div>
   </div>

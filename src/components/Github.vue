@@ -7,7 +7,7 @@
         icon="fa-brands fa-github"
         class="duration-300 text-2xl transition-rotate ease-in-out group-hover:-translate-y-1"
       />
-      <span class="text-md ml-1">Source</span>
+      <span class="text-md ml-1">Github</span>
     </button>
   </a>
 </template>

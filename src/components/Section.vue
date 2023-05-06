@@ -1,5 +1,6 @@
 <template>
   <div
+    class="z-20 relative"
     v-motion
     :initial="{
       opacity: 0,
@@ -22,5 +23,5 @@
   </div>
 </template>
 <script setup>
-let { delay } = defineProps(["delay"]);
+let { delay } = defineProps(["delay", "duration"]);
 </script>

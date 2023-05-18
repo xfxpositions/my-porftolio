@@ -6,6 +6,14 @@
         <div
           class="flex flex-col px-6 py-2 md:p-7 md:py-3 lg:p-10 lg:py-3 bg-zinc-500 bg-opacity-30 backdrop-blur-[2px] rounded-md mt-2"
         >
+          18/05/2023
+          <ul class="ml-4 text-lg font-normal">
+            <li>Tasarımsal yenileme.</li>
+          </ul>
+        </div>
+        <div
+          class="flex flex-col px-6 py-2 md:p-7 md:py-3 lg:p-10 lg:py-3 bg-zinc-500 bg-opacity-30 backdrop-blur-[2px] rounded-md mt-2"
+        >
           06/05/2023
           <ul class="ml-4 text-lg font-normal">
             <li>Türkçe dil desteği.</li>

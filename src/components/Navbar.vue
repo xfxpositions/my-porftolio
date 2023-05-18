@@ -1,6 +1,6 @@
 <template>
   <Section class="z-20" duration="50">
-    <nav class="z-20 relative py-5 px-4 flex justify-between">
+    <nav class="z-20 py-5 px-4 flex justify-between">
       <router-link to="/" class="z-10">
         <h1 class="group">
           <font-awesome-icon

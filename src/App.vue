@@ -1,6 +1,6 @@
 <template>
   <div
-    class="h-[100%] min-h-screen md:pt-2 lg:pt-2 p-5 sm:p-10 md:p-15 lg:p-20 -z-10 text-center transition-colors duration-500 ease-in-out bg-[#F0E7DB] dark:bg-[#101419] dark:text-white font-bold"
+    class="h-[100%] min-h-screen md:pt-2 lg:pt-2 p-5 sm:p-10 md:p-15 lg:p-20 -z-10 text-center transition-colors duration-500 ease-in-out bg-[#F0E7DB] dark:bg-[rgba(0,26,30,var(--tw-bg-opacity))] dark:text-white font-bold"
   >
     <Navbar></Navbar>
     <router-view class="router-view" v-slot="{ Component }">

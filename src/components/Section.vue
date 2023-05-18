@@ -4,14 +4,14 @@
     v-motion
     :initial="{
       opacity: 0,
-      y: 10,
+      y: 30,
     }"
     :enter="{
       opacity: 1,
       y: 0,
       transition: {
         delay: delay,
-        duration: 800,
+        duration: 1200,
       },
     }"
     :leave="{

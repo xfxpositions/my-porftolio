@@ -12,8 +12,10 @@
 <script setup>
 import { useDark, useToggle } from "@vueuse/core";
 import { ref } from "vue";
+import { useColorMode } from "@vueuse/core";
+const mode = useColorMode();
 let isDark = useDark();
-console.log(isDark.value);
+console.log(mode.value);
 const toggleDark = useToggle(isDark);
 const changeTheme = () => {
   toggleDark();

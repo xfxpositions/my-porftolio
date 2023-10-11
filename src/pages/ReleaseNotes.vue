@@ -6,15 +6,30 @@
         <div
           class="flex flex-col px-6 py-2 md:p-7 md:py-3 lg:p-10 lg:py-3 bg-zinc-500 bg-opacity-30 backdrop-blur-[2px] rounded-md mt-2"
         >
+          11/10/2023
+          <ul class="ml-4 text-lg font-normal">
+            <li>English version Redesign.</li>
+            <li>Maybe Nuxt or Nue in the future?</li>
+          </ul>
+        </div>
+        <div
+          class="flex flex-col px-6 py-2 md:p-7 md:py-3 lg:p-10 lg:py-3 bg-zinc-500 bg-opacity-30 backdrop-blur-[2px] rounded-md mt-2"
+        >
+          18/05/2023
+          <ul class="ml-4 text-lg font-normal">
+            <li>Redesign.</li>
+          </ul>
+        </div>
+        <div
+          class="flex flex-col px-6 py-2 md:p-7 md:py-3 lg:p-10 lg:py-3 bg-zinc-500 bg-opacity-30 backdrop-blur-[2px] rounded-md mt-2"
+        >
           06/05/2023
           <ul class="ml-4 text-lg font-normal">
             <li>Turkish language support.</li>
-            <li>smooth page transitions.</li>
+            <li>Page transition animations.</li>
             <li>
-              design improvements
-              <a href="https://github.com/xfxpositions/maria"
-                >I'm continue Maria.rs</a
-              >
+              Tasarımsal iyileştirmeler
+              <a href="https://github.com/xfxpositions/maria">Maria.rs</a>
               .
             </li>
           </ul>

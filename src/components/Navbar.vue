@@ -1,6 +1,6 @@
 <template>
   <Section class="z-20" duration="50">
-    <nav class="z-20 relative py-5 px-4 flex justify-between">
+    <nav class="z-20 py-5 px-4 flex justify-between">
       <router-link to="/" class="z-10">
         <h1 class="group">
           <font-awesome-icon
@@ -16,7 +16,7 @@
 
         <LinkVue to="/release-notes" class="text-lg">Release Notes</LinkVue>
         <LinkVue to="/surveys" class="text-lg">Surveys</LinkVue>
-        <LinkVue to="https://tr.yusufkaraca.dev" class="text-lg" :is-a="true"
+        <LinkVue to="https://yusufkaraca.dev" class="text-lg" :is-a="true"
           >Türkçe</LinkVue
         >
       </div>

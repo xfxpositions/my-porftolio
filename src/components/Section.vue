@@ -1,17 +1,17 @@
 <template>
   <div
-    class="relative z-20"
+    class="z-20 relative"
     v-motion
     :initial="{
       opacity: 0,
-      y: 10,
+      y: 30,
     }"
     :enter="{
       opacity: 1,
       y: 0,
       transition: {
         delay: delay,
-        duration: 800,
+        duration: 1200,
       },
     }"
     :leave="{
@@ -23,5 +23,5 @@
   </div>
 </template>
 <script setup>
-let { delay } = defineProps(["delay"]);
+let { delay } = defineProps(["delay", "duration"]);
 </script>

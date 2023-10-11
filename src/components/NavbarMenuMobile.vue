@@ -21,7 +21,7 @@
       >
         <MenuItem class="px-1 pl-2">
           <a
-            href="https://tr.yusufkaraca.dev"
+            href="https://yusufkaraca.dev"
             class="group px-1 py-1 rounded-md h-[100%] w-[100%] flex hover:bg-slate-100 dark:hover:bg-slate-700 transition-all duration-300 ease-in-out"
           >
             <button class="group-hover:underline">Change Language</button>

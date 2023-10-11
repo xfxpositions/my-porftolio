@@ -12,12 +12,12 @@
       </router-link>
       <div class="divide-y"></div>
       <div class="z-10 hidden md:block">
-        <LinkVue to="/posts" class="text-lg">Gönderiler</LinkVue>
+        <LinkVue to="/posts" class="text-lg">Posts</LinkVue>
 
-        <LinkVue to="/release-notes" class="text-lg">Yama notları</LinkVue>
-        <LinkVue to="/surveys" class="text-lg">Anketler</LinkVue>
+        <LinkVue to="/release-notes" class="text-lg">Release Notes</LinkVue>
+        <LinkVue to="/surveys" class="text-lg">Surveys</LinkVue>
         <LinkVue to="https://yusufkaraca.dev" class="text-lg" :is-a="true"
-          >English</LinkVue
+          >Türkçe</LinkVue
         >
       </div>
       <div class="z-10 flex gap-4">

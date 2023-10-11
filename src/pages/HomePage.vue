@@ -9,22 +9,21 @@
             class="flex shadow-md hero-box flex-col gap-y-7 p-5 md:px-8 py-12 md:py-16 text-left backdrop-blur-[3px] bg-zinc-700 m-auto rounded-lg bg-opacity-20"
           >
             <Section delay="200">
-              <h1 class="text-rose-500 text-xl">Portfolyoma hoşgeldiniz!</h1>
+              <h1 class="text-rose-500 text-xl">Welcome to my Portfolio!</h1>
             </Section>
             <Section delay="300">
-              <h1 class="text-4xl">Merhaba, ben Yusuf Karaca.</h1>
+              <h1 class="text-4xl">Hello, I'm Yusuf Karaca.</h1>
             </Section>
             <Section delay="400">
               <div class="quote-1 text-4xl py-2">
-                Projeleriniz için doğru geliştirici benim.
+                I'm the right developer for your projects.
               </div>
             </Section>
             <Section delay="500">
               <span class="text-base md:text-xl block font-normal">
-                Web ve işletim sistemleri üzerine çalışan bir yazılım
-                geliştiricisiyim. Bu websitede hakkımda bilgi edinebilir ve
-                benimle iletişime geçebilirsiniz. Ayrıca hobilerim, ilgi
-                alanlarım ve fikirlerim hakkında gönderiler paylaşıyorum.
+                I'm a software developer which working on Web and systems. You
+                can learn information about me get contact with me in this site.
+                Also, i'm posting about my hobies, interests and ideas.
               </span>
             </Section>
           </div>
@@ -44,7 +43,7 @@
               v-motion-slide-visible-bottom
               class="text-4xl main-text-color font-yolk"
             >
-              Hakkımda
+              About me
             </div>
             <div v-motion-slide-visible-bottom class="flex-grow mr-5">
               <div class="w-full border-b-2 border-slate-500"></div>
@@ -54,20 +53,20 @@
               class="text-base w-full text-gray-400"
             >
               <p v-motion-slide-visible-bottom>
-                Merhaba, ben Yusuf Karaca. Burada fikirlerim ve hobilerim
-                hakkımda bilgi sahibi olabilirsiniz. 2020 yılından beri
-                programlama ve bilgisayarlara ilgi duyuyorum. Web sunucuları,
-                web dizaynı, kernel ve yazılım geliştirme ile ilgileniyorum.
+                Hello, I'm Yusuf Karaca. in here, you can learn information
+                about my hobies. I' working about programming and computers
+                since 2020. I'm working about web servers, web pages, kernel and
+                software development.
               </p>
               <p class="mt-3" v-motion-slide-visible-bottom>
-                Bunun dışında dilbilimine, işletim sistemlerine ve Japoncaya
-                ilgim var (halen konuşamıyorum). Şu anda bilgisayar mühendisliği
-                üzerine okuyorum ve freelancer olarak çalışıyorum. İşiniz için
-                yeni çözümler üretebilir ve sizin için websiteler
-                tasarlayabilirim.
+                Besides that things, i have also interets to linguistics,
+                Japanese (I can't talk yet). Currently i'm studying computer
+                science and working in <a href="logo">Logo Software</a>. I can
+                create new solutions and websites, web servers for your
+                business.
               </p>
               <p class="mt-3" v-motion-slide-visible-bottom>
-                İşte kullandığım ve iyi bildiğim bazı teknolojiler.
+                Some technologies I use.
               </p>
               <div class="w-full justify-center flex flex-wrap mt-7">
                 <div class="w-4/5 flex flex-wrap gap-y-3">
@@ -127,7 +126,7 @@
             v-motion-slide-visible-bottom
             class="text-4xl main-text-color font-yolk mb-8"
           >
-            Bildiğim diğer teknolojiler
+            Other technologies I use
           </div>
           <div v-motion-slide-visible-bottom class="flex-grow mr-5">
             <div class="w-full border-b-2 border-slate-500"></div>
@@ -301,7 +300,7 @@
       </div> -->
 
     <hr class="mt-5 mb-5" />
-    <div v-motion-slide-visible-bottom>
+    <div v-motion-slide-visible-bottom class="z-20">
       <code class="text-sm md:text-[1.2rem] z-10"
         >Yusuf Karaca - 18/05/2023</code
       >
@@ -309,7 +308,7 @@
       <a
         href="https://github.com/xfxpositions/my-porftolio"
         class="text-sm text-red-400 underline z-10"
-        >Kaynak kodu</a
+        >Source Code</a
       >
     </div>
   </div>
@@ -321,7 +320,7 @@ const cards = [
     cols: [
       {
         name: "rust",
-        title: "Rust Web Geliştirme",
+        title: "Rust Web Development",
         html: '<svg version="1.1" height="106" width="106" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="logo" transform="translate(53, 53)">  <path id="r" transform="translate(0.5, 0.5)" stroke="black" stroke-width="1" stroke-linejoin="round" d="     M -9,-15 H 4 C 12,-15 12,-7 4,-7 H -9 Z     M -40,22 H 0 V 11 H -9 V 3 H 1 C 12,3 6,22 15,22 H 40     V 3 H 34 V 5 C 34,13 25,12 24,7 C 23,2 19,-2 18,-2 C 33,-10 24,-26 12,-26 H -35     V -15 H -25 V 11 H -40 Z"/>  <g id="gear" mask="url(#holes)">    <circle r="43" fill="none" stroke="black" stroke-width="9"/>    <g id="cogs">      <polygon id="cog" stroke="black" stroke-width="3" stroke-linejoin="round" points="46,3 51,0 46,-3"/>      <use xlink:href="#cog" transform="rotate(11.25)"/>      <use xlink:href="#cog" transform="rotate(22.50)"/>      <use xlink:href="#cog" transform="rotate(33.75)"/>      <use xlink:href="#cog" transform="rotate(45.00)"/>      <use xlink:href="#cog" transform="rotate(56.25)"/>      <use xlink:href="#cog" transform="rotate(67.50)"/>      <use xlink:href="#cog" transform="rotate(78.75)"/>      <use xlink:href="#cog" transform="rotate(90.00)"/>      <use xlink:href="#cog" transform="rotate(101.25)"/>      <use xlink:href="#cog" transform="rotate(112.50)"/>      <use xlink:href="#cog" transform="rotate(123.75)"/>      <use xlink:href="#cog" transform="rotate(135.00)"/>      <use xlink:href="#cog" transform="rotate(146.25)"/>      <use xlink:href="#cog" transform="rotate(157.50)"/>      <use xlink:href="#cog" transform="rotate(168.75)"/>      <use xlink:href="#cog" transform="rotate(180.00)"/>      <use xlink:href="#cog" transform="rotate(191.25)"/>      <use xlink:href="#cog" transform="rotate(202.50)"/>      <use xlink:href="#cog" transform="rotate(213.75)"/>      <use xlink:href="#cog" transform="rotate(225.00)"/>      <use xlink:href="#cog" transform="rotate(236.25)"/>      <use xlink:href="#cog" transform="rotate(247.50)"/>      <use xlink:href="#cog" transform="rotate(258.75)"/>      <use xlink:href="#cog" transform="rotate(270.00)"/>      <use xlink:href="#cog" transform="rotate(281.25)"/>      <use xlink:href="#cog" transform="rotate(292.50)"/>      <use xlink:href="#cog" transform="rotate(303.75)"/>      <use xlink:href="#cog" transform="rotate(315.00)"/>      <use xlink:href="#cog" transform="rotate(326.25)"/>      <use xlink:href="#cog" transform="rotate(337.50)"/>      <use xlink:href="#cog" transform="rotate(348.75)"/>    </g>    <g id="mounts">      <polygon id="mount" stroke="black" stroke-width="6" stroke-linejoin="round" points="-7,-42 0,-35 7,-42"/>      <use xlink:href="#mount" transform="rotate(72)"/>      <use xlink:href="#mount" transform="rotate(144)"/>      <use xlink:href="#mount" transform="rotate(216)"/>      <use xlink:href="#mount" transform="rotate(288)"/>    </g>  </g>  <mask id="holes">    <rect x="-60" y="-60" width="120" height="120" fill="white"/>    <circle id="hole" cy="-40" r="3"/>    <use xlink:href="#hole" transform="rotate(72)"/>    <use xlink:href="#hole" transform="rotate(144)"/>    <use xlink:href="#hole" transform="rotate(216)"/>    <use xlink:href="#hole" transform="rotate(288)"/>  </mask></g></svg>',
         text: "A modern programming language for robust and secure applications.",
       },
@@ -335,7 +334,7 @@ const cards = [
         name: "mongodb",
         title: "MongoDB",
         html: '<svg width="30" height="30" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><linearGradient id="a" x1="-645.732" y1="839.188" x2="-654.59" y2="839.25" gradientTransform="matrix(-0.977, -0.323, -0.29, 0.877, -375.944, -928.287)" gradientUnits="userSpaceOnUse"><stop offset="0.231" stop-color="#999875"/><stop offset="0.563" stop-color="#9b9977"/><stop offset="0.683" stop-color="#a09f7e"/><stop offset="0.768" stop-color="#a9a889"/><stop offset="0.837" stop-color="#b7b69a"/><stop offset="0.896" stop-color="#c9c7b0"/><stop offset="0.948" stop-color="#deddcb"/><stop offset="0.994" stop-color="#f8f6eb"/><stop offset="1" stop-color="#fbf9ef"/></linearGradient><linearGradient id="b" x1="-644.287" y1="823.405" x2="-657.028" y2="845.476" gradientTransform="matrix(-0.977, -0.323, -0.29, 0.877, -375.944, -928.287)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#48a547"/><stop offset="1" stop-color="#3f9143"/></linearGradient><linearGradient id="c" x1="-643.386" y1="839.485" x2="-652.418" y2="833.417" gradientTransform="matrix(-0.977, -0.323, -0.29, 0.877, -375.944, -928.287)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#41a247"/><stop offset="0.352" stop-color="#4ba74b"/><stop offset="0.956" stop-color="#67b554"/><stop offset="1" stop-color="#69b655"/></linearGradient></defs><title>file_type_mongo</title><path d="M16.62,30l-.751-.249s.1-3.8-1.275-4.067c-.9-1.048.133-44.741,3.423-.149a2.712,2.712,0,0,0-1.333,1.523A14.1,14.1,0,0,0,16.62,30Z" style="fill:url(#a)"/><path d="M17.026,26.329a13.223,13.223,0,0,0,5-13.225C20.556,6.619,17.075,4.487,16.7,3.673a9.792,9.792,0,0,1-.825-1.6l.277,18.069S15.578,25.664,17.026,26.329Z" style="fill:url(#b)"/><path d="M15.487,26.569S9.366,22.4,9.72,15.025A15.54,15.54,0,0,1,15.239,3.377,1.725,1.725,0,0,0,15.846,2c.381.82.319,12.243.359,13.579C16.36,20.776,15.916,25.588,15.487,26.569Z" style="fill:url(#c)"/></svg>',
-        text: "Hızlı, kullanımı kolay ve verimli bir NoSQL veritabanı.",
+        text: "Fast, an easy to use and robust NoSQL database.",
       },
     ],
   },
@@ -345,7 +344,7 @@ const cards = [
         name: "aws",
         title: "AWS",
         html: '<svg width="30" height="30" viewBox="0 -30 150 150" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M122.714 62.703c5.28-.643 16.924-2.027 18.997.643 2.072 2.621-2.319 13.649-4.293 18.544-.592 1.484.691 2.077 2.023.94 8.684-7.319 10.954-22.6 9.178-24.825-1.777-2.175-17.023-4.055-26.3 2.473-1.431 1.038-1.184 2.423.395 2.225z" fill="#F90"/> <path d="M74.852 89.456c20.28 0 43.865-6.38 60.099-18.396 2.664-1.978.345-4.994-2.369-3.758-18.207 7.714-37.993 11.473-56.003 11.473-26.694 0-52.5-7.368-73.42-19.533-1.827-1.088-3.208.791-1.679 2.176 19.343 17.505 44.951 28.038 73.372 28.038z" fill="#F90"/><path d="M42.632 32.835c0 1.83.197 3.313.542 4.401a26.505 26.505 0 001.58 3.56c.246.396.345.792.345 1.138 0 .495-.296.99-.938 1.484l-3.108 2.077c-.444.296-.889.445-1.283.445-.494 0-.987-.248-1.48-.693a15.29 15.29 0 01-1.777-2.324 38.28 38.28 0 01-1.53-2.918c-3.848 4.55-8.684 6.825-14.506 6.825-4.145 0-7.45-1.187-9.868-3.56-2.418-2.374-3.652-5.54-3.652-9.495 0-4.204 1.48-7.616 4.49-10.187 3.01-2.572 7.007-3.857 12.09-3.857 1.677 0 3.404.148 5.23.395 1.825.248 3.7.643 5.674 1.088v-3.61c0-3.758-.79-6.379-2.32-7.912-1.578-1.533-4.243-2.274-8.042-2.274-1.727 0-3.503.197-5.329.642a39.247 39.247 0 00-5.329 1.682 14.14 14.14 0 01-1.727.643c-.345.098-.592.148-.79.148-.69 0-1.036-.494-1.036-1.533V6.577c0-.791.1-1.385.346-1.73.246-.347.69-.693 1.381-1.04 1.727-.89 3.8-1.631 6.217-2.225C20.23.94 22.797.642 25.51.642c5.872 0 10.164 1.336 12.927 4.006 2.714 2.67 4.096 6.726 4.096 12.165v16.022h.099zm-20.033 7.517c1.628 0 3.306-.297 5.082-.89 1.776-.594 3.355-1.682 4.687-3.165.79-.94 1.382-1.978 1.678-3.165.296-1.187.493-2.621.493-4.302v-2.077a41.135 41.135 0 00-4.539-.84 37.099 37.099 0 00-4.638-.298c-3.306 0-5.724.643-7.352 1.978-1.628 1.336-2.418 3.215-2.418 5.687 0 2.324.592 4.055 1.826 5.242 1.184 1.236 2.911 1.83 5.18 1.83zm39.621 5.34c-.888 0-1.48-.148-1.875-.494-.394-.297-.74-.99-1.036-1.929L47.714 5.044c-.296-.99-.444-1.632-.444-1.978 0-.791.394-1.236 1.184-1.236h4.835c.938 0 1.58.148 1.925.494.395.297.69.99.987 1.929l8.29 32.736 7.697-32.736c.246-.99.542-1.632.937-1.929.395-.297 1.085-.494 1.974-.494h3.947c.938 0 1.579.148 1.974.494.395.297.74.99.937 1.929l7.796 33.132L98.29 4.253c.295-.99.64-1.632.986-1.929.395-.297 1.036-.494 1.925-.494h4.588c.79 0 1.234.395 1.234 1.236 0 .247-.049.494-.099.791a7.041 7.041 0 01-.345 1.236L94.688 43.32c-.297.989-.642 1.631-1.037 1.928-.394.297-1.036.495-1.875.495h-4.243c-.938 0-1.58-.149-1.974-.495-.394-.346-.74-.989-.937-1.978l-7.648-31.895-7.599 31.846c-.247.989-.543 1.632-.938 1.978-.394.346-1.085.494-1.973.494H62.22zm63.405 1.336c-2.566 0-5.132-.297-7.599-.89-2.467-.594-4.391-1.237-5.674-1.979-.79-.445-1.332-.94-1.53-1.384a3.503 3.503 0 01-.296-1.385v-2.522c0-1.038.395-1.533 1.135-1.533.296 0 .592.05.888.148.296.1.74.297 1.234.495a26.791 26.791 0 005.428 1.73c1.973.396 3.898.594 5.871.594 3.109 0 5.527-.544 7.204-1.632 1.678-1.088 2.566-2.67 2.566-4.698 0-1.384-.444-2.521-1.332-3.461-.888-.94-2.566-1.78-4.984-2.571l-7.154-2.226c-3.602-1.137-6.267-2.818-7.895-5.044-1.628-2.176-2.467-4.599-2.467-7.17 0-2.077.444-3.907 1.332-5.489.888-1.582 2.072-2.967 3.553-4.055 1.48-1.137 3.157-1.978 5.131-2.571 1.974-.594 4.046-.841 6.217-.841 1.086 0 2.221.05 3.306.198 1.135.148 2.171.346 3.207.544.987.247 1.925.494 2.813.79.888.298 1.579.594 2.072.891.691.396 1.185.791 1.481 1.236.296.396.444.94.444 1.632V8.16c0 1.039-.395 1.583-1.135 1.583-.395 0-1.036-.198-1.875-.594-2.813-1.285-5.971-1.928-9.474-1.928-2.812 0-5.033.445-6.562 1.384-1.53.94-2.319 2.374-2.319 4.402 0 1.384.493 2.57 1.48 3.51s2.812 1.88 5.427 2.72l7.007 2.226c3.553 1.137 6.118 2.72 7.648 4.747 1.53 2.027 2.27 4.351 2.27 6.923 0 2.126-.444 4.055-1.283 5.736-.888 1.681-2.072 3.165-3.602 4.352-1.53 1.236-3.355 2.126-5.477 2.769-2.22.692-4.54 1.039-7.056 1.039z" fill="#fff"/></svg>',
-        text: "Amazon tarafından geliştirilen bulut tabanlı web servisleri.",
+        text: "Cloud solutions which made by Amazon.",
       },
       {
         name: "actix",
@@ -357,7 +356,7 @@ const cards = [
         name: "blockchain",
         title: "Blockchain Teknolojisi ve Kripto Varlıklar",
         html: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 400 400" fill="none" id="lottiefiles-logo"><clipPath id="a"><path d="M0 0h400v400H0z"></path></clipPath><g clip-path="url(#a)"><path fill="#00ddb3" d="M298.783 0H101.217C45.317 0 0 45.317 0 101.217v197.566C0 354.683 45.316 400 101.217 400h197.566C354.683 400 400 354.683 400 298.783V101.217C400 45.317 354.683 0 298.783 0z"></path><path fill="#fff" d="M304.035 89.598c-68.951 0-94.382 49.158-114.885 88.663l-13.486 25.248c-21.74 41.899-37.964 67.35-79.781 67.35a19.756 19.756 0 0 0-13.995 5.784 19.769 19.769 0 0 0-4.291 21.56 19.758 19.758 0 0 0 10.713 10.702 19.756 19.756 0 0 0 7.573 1.499c68.951 0 94.382-49.158 114.885-88.663l13.405-25.248c21.74-41.899 37.964-67.35 79.781-67.35a19.763 19.763 0 0 0 18.286-12.201 19.77 19.77 0 0 0-4.291-21.56 19.763 19.763 0 0 0-13.995-5.784z"></path></g></svg>',
-        text: "Merkeziyetsiz varlıklar ve sistemler.",
+        text: "Decentralised tokens and systems.",
       },
     ],
   },

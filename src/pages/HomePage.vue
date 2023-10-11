@@ -14,9 +14,6 @@
             <Section delay="300">
               <h1 class="text-4xl">Merhaba, ben Yusuf Karaca.</h1>
             </Section>
-            <!-- <h2 class="text-3xl graident">
-              Projeleriniz için doğru geliştirici ben olabilirim.
-            </h2> -->
             <Section delay="400">
               <div class="quote-1 text-4xl py-2">
                 Projeleriniz için doğru geliştirici benim.
@@ -507,5 +504,24 @@ const cards = [
 }
 .content[data-image="blockchain"]::after {
   background-image: url("../assets/photos/blockchain.jpg");
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track /
+::-webkit-scrollbar-track {
+  background: #212121;
+}
+
+/ Handle /
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/ Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(190, 190, 190);
 }
 </style>

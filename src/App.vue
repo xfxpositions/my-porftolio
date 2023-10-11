@@ -54,4 +54,19 @@ console.log(mode.value);
   transform: translateY(-10px);
   opacity: 0;
 }
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #212121;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(190, 190, 190);
+}
 </style>
